@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "targets": {
     ".NETStandard,Version=v2.0": {
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -45,11 +45,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -179,41 +179,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hutingung\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\hutingung\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hutingung\\Source\\Repos\\simple-dot-net\\simple-dot-net\\simple-dot-net.csproj",
+      "projectUniqueName": "E:\\workspace\\aLine\\FIRE-19339\\simple-dot-net\\simple-dot-net\\simple-dot-net.csproj",
       "projectName": "simple-dot-net",
-      "projectPath": "C:\\Users\\hutingung\\Source\\Repos\\simple-dot-net\\simple-dot-net\\simple-dot-net.csproj",
-      "packagesPath": "C:\\Users\\hutingung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hutingung\\Source\\Repos\\simple-dot-net\\simple-dot-net\\obj\\",
+      "projectPath": "E:\\workspace\\aLine\\FIRE-19339\\simple-dot-net\\simple-dot-net\\simple-dot-net.csproj",
+      "outputPath": "E:\\workspace\\aLine\\FIRE-19339\\simple-dot-net\\simple-dot-net\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\hutingung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-      ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+      "files": {
+        "lib/netstandard2.0/simple-dot-net.dll": "E:\\workspace\\aLine\\FIRE-19339\\simple-dot-net\\simple-dot-net\\bin\\placeholder\\netstandard2.0\\simple-dot-net.dll"
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
@@ -222,15 +207,9 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.3, )",
-            "autoReferenced": true
+            "version": "2.0.3"
           }
-        },
-        "imports": [
-          "net461"
-        ],
-        "assetTargetFallback": true,
-        "warn": true
+        }
       }
     }
   }
